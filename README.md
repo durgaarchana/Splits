@@ -5,4 +5,3 @@ Keep tracks of expenses and split bills among friends
       - B <- A & C | $80
       - A -> B     | $40
       - C -> B     | $40
-* 

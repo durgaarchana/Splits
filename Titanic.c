@@ -1,16 +1,17 @@
-/* Name : Titanic.c 
+/* Name : Titanic.c {{{
  * Author : durgaswaroop
  * Description : The driver program. Everything starts here
+ * }}} 
  */
 
 #include <stdio.h>
 
 // function prototypes
-void newUserFileCreator(char *);
+void newUserFileCreator(char *); //{{{
 void existingUserBillsLoader(char *);
 void existingUserloginFunction();
 void newUserRegistrationFunction();
-void newUserNameClashDetector(char *);
+void newUserNameClashDetector(char *); //}}}
 
 main(){
 	int userInput = -1;
